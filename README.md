@@ -15,3 +15,6 @@ to start, use
 ```bash
 node runtime.js
 ```
+
+
+note: this was made for me to write javascript much easier
