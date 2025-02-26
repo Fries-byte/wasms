@@ -15,13 +15,7 @@ const asmcFile = path.join(dbFolder, 'app.asmc');
 // Create the "app.asms" file if it doesn't exist
 if (!fs.existsSync(asmsFile)) {
     const defaultAsmsContent = `(script
-    (hello :func (console.log("Hello from ASMS!")))
-    (world :data (% hello world! %))
-    (world :read) ;; output: hello world!
-    (numbers :data (1234.5678))
-    (numbers :read) ;; output: 1234.5678
-    (math :data (69+69))
-    (math :read) ;; output: 138
+    ;; base 
 )`;
     fs.writeFileSync(asmsFile, defaultAsmsContent);
 }
