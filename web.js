@@ -24,7 +24,7 @@ class WSTInterpreter {
             } else if (line.startsWith('end')) {
                 // No action needed for end
             } else if (line.startsWith('(func')) {
-                i = this.handle_function(lines, i);
+                i = this.handle_function?.(lines, i) ?? i;
             } else if (line.startsWith('return')) {
                 this.handle_return(line);
             } else if (line.includes('.add[')) {
