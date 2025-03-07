@@ -1,6 +1,6 @@
 
     // web-interpreter.js - Browser-compatible WST interpreter
-    let wstFILE = 'app'; // Name of the file, .wst shouldn't be included
+    let wstFILE = 'app'; // Name of the file, .wst shouldn't be included. also works with links
     /*
     Local type of interpreter.
     *****
