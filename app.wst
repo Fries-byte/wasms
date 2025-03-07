@@ -1,5 +1,5 @@
 (script
-    (func $main (result i82)
+    (func $main < (result i82)
         (local 0 i*82)
         0.add[$i-]
         w.-> https://example.com
