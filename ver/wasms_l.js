@@ -1,5 +1,5 @@
     // web-interpreter.js - Browser-compatible WST interpreter
-    let wstFILE = 'app.wst'; // Name of the file. also works with links
+    let wstFILE = 'https://raw.githubusercontent.com/Fries-byte/wasms/refs/heads/main/app.wst'; // Name of the file. also works with links
     /*
     Local type of interpreter.
     *****
